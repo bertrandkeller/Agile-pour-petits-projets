@@ -1,4 +1,4 @@
-# Pas de vue — Pas de prix
+# Agile pour petits projets
 
-Conférence de 5 minutes présentée à Sudweb
+Conférence de 20 minutes présentée à la Kiwy Party
 

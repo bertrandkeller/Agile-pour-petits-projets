@@ -18,14 +18,79 @@ section
   font-style: oblique;
 }
 
-th 
+th
   color: #000;
   background: #fff
-  
+
 td, th
   padding: .2rem;
   border: 1px solid;
 
-.grille-jardin 
-  background: url(../images/grille-jardin.jpeg) center center no-repeat;
-  background-size: 100% auto;
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  max-width: 700px;
+}
+
+h2,p {
+  padding: 0.3rem 1rem;
+  color: #fff;
+  background: #111;
+}
+
+iframe {
+  background: #fff;
+}
+
+h2 {
+  padding: 0.3rem 0.5rem 0.3rem 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.comment {
+  font-style italic;
+}
+
+.credit {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.compare {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: transparent;
+}
+
+.compare > * {
+  padding: 0.3rem;
+  color: #111;
+  text-align center;
+  background: transparent;
+}
+
+.compare span:first-child,.compare span:last-child {
+  width: 30%;
+  color: #fff;
+  background: #111;
+}
+
+.fullimage img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #fff;
+  z-index: -1;
+}
